@@ -1,0 +1,145 @@
+.title-font {
+	font-size: 40px;
+	color: tomato;
+  	font-family: 'Helvetica Neue' sans-serif;
+  	text-transform: uppercase;
+  	line-height: 40px;
+}
+
+.title-font-head {
+	font-size: 50px;
+	color: tomato;
+  	font-family: 'Helvetica Neue' sans-serif;
+  	text-transform: uppercase;
+  	line-height: 40px;
+}
+
+.text {
+	font-size: 13px;
+	color: tomato;
+  	font-family: 'Helvetica Neue' sans-serif;
+}
+
+.front, .back {
+	transition: -webkit-transform 1.5s;
+	-webkit-backface-visibility: hidden;
+}
+
+.front {
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+}
+
+.back {
+	width: 100%;
+	-webkit-transform: rotateY(-180deg);
+}
+
+.info-card{
+	margin-bottom: 6em;
+}
+
+.card-box{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.info-card:hover .back {
+	-webkit-transform: rotateY(0);
+}
+
+.info-card:hover .front {
+	-webkit-transform: rotateY(180deg);
+}
+
+.headText{
+
+	font-size: 11vw;
+	color: tomato;
+	margin-bottom: .3em;
+	padding-left: 10px;
+}
+
+.aboutImgBox{
+	width: 450px;
+}
+
+.muted{
+	color:#676666;
+}
+
+.quote{
+	font-size: 10px;
+	margin-top: 15px;
+}
+
+.skillsHeader{
+	color: tomato;
+	font-family: Helvetica;
+	font-size: 4vw;
+	margin-bottom: 40px;
+	margin-top: 10px;
+}
+
+.skillsTitles{
+	color: #676666;
+	font-family: Helvetica;
+	font-size: 20px;
+}
+
+.skillsDesc{
+	color: #676666;
+	font-family: Helvetica;
+	font-size: 13px;
+	display: block;
+	line-height: 1em;
+	padding-bottom: 20px;
+	width:180px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.imgFill{
+	width: 100%;
+}
+
+.rounded{
+}
+
+.centerGallery{
+	justify-content: center;
+}
+
+.formText{
+	color: tomato;
+	font-family: Helvetica;
+	font-size: 15px;
+	margin-top:-1%;
+}
+
+.formHeader{
+	font-size: 30px;
+}
+
+.footer {
+    background: tomato;
+    color: white;
+    padding-top: 20px;
+    padding-bottom:20px;
+    font-size: 12px;
+}
+
+.project-subname {
+	padding: 0px 10px 20px 10px;
+	font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+	font-size: 15px;
+	line-height: 17px;
+}
+
+.project-desc {
+	padding: 0px 20px 0px 20px;
+	font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+	font-size: 12px;
+	line-height: 17px;
+}
