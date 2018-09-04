@@ -112,7 +112,7 @@
 }
 
 .formText{
-	color: tomato;
+	color: rgb(17, 17, 17);
 	font-family: Helvetica;
 	font-size: 15px;
 	margin-top:-1%;
@@ -120,11 +120,14 @@
 
 .formHeader{
 	font-size: 30px;
+	margin-left: 30px;
+	padding: 30px 300px 20px 150px;
+	background-color: black;
 }
 
 .footer {
-    background: tomato;
-    color: white;
+    background: rgb(17, 17, 17);
+    color: rgb(248, 246, 246);
     padding-top: 20px;
     padding-bottom:20px;
     font-size: 12px;
@@ -142,4 +145,89 @@
 	font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 	font-size: 12px;
 	line-height: 17px;
+}
+#forminput{
+	width: 150%;
+	border-style: dashed;
+}
+.btn{
+	background-color: white;
+	width: 175px;
+
+}
+@import "compass/css3";
+
+
+body { 
+  font-family: "Helvetica Neue", arial, sans-serif;
+  padding: 1em;
+}
+
+h1 {
+  font-size: 1em;
+  font-weight: 800;
+}
+
+h3 { font-size: 1em; }
+
+progress, progress[role] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  background-size: auto;
+  height: 20px;
+  width: 300%;
+}
+
+
+.skill-list {
+  list-style: none;
+  margin: 0;
+  padding: 1em;
+}
+
+.skill {
+margin-bottom: 1em;
+position: relative;
+  /* h3 {
+    color: #fff;
+    left: 1em;
+    line-height: 1;
+    position: absolute;
+    top: 1em;
+  } */
+ 
+}
+
+.skill-1::-webkit-progress-value {
+  background: #ff9e2c;
+}
+
+.skill-1::-moz-progress-bar {
+  background: #ff9e2c;
+}
+
+.skill-2::-webkit-progress-value {
+  background: #4ecdc4;
+}
+
+.skill-2::-moz-progress-bar {
+  background: #4ecdc4;
+}
+
+.skill-3::-webkit-progress-value {
+  background: #ff6b6b;
+}
+
+.skill-3::-moz-progress-bar {
+  background: #ff6b6b;
+}
+
+@-webkit-keyframes bar-fill {
+  0% { width: 0; }
+}
+
+@keyframes bar-fill {
+  0% { width: 0; }
 }
